@@ -1,0 +1,1165 @@
+
+html:root {
+    background-image:  url('../images/2.jpg');
+    background-position:  0% 0%;
+
+    background-repeat: no-repeat;
+
+}
+p{
+
+    font-size: 15px;
+    color: red;
+
+}
+h1{
+
+    color: white;
+    margin-left: 30%;
+}
+select{
+
+    margin-left: 30%;
+    width: 40%;
+    margin-top: -3%;
+    overflow: scroll;
+}
+
+
+label{
+
+    color: white;
+    font-size: 100%;
+}
+
+h2{
+
+    margin-left: 0%;
+    margin-top: 3%;
+    font-family: fantasy;
+    color: #ffffff;
+    font-size: large;
+}
+
+header
+{
+    background-image: url('../images/21.jpg');
+    border-width: 20px;
+    box-shadow: 4px 4px;
+    width: 200%;
+    height: 105%;
+    margin-left: -50%;
+    margin-top:  -22px;
+    margin-right: 0%    ;
+    margin-bottom: 30px;
+}
+
+header h1
+{
+
+
+    text-shadow:
+        0 -2px 3px #FFF,
+        0 -4px 3px #AAA,
+        0 -6px 6px #666,
+        0 -8px 9px #000;
+    color: #3366ff;
+
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size:29px;
+    text-align: justify;
+}
+
+#logueo
+{
+    box-shadow: 8px 3px;
+    /*background-image: url('../images/42.jpg');*/
+    /*opacity: 0.8;*/
+    /*font-size:17px;*/
+    width: 25%;
+
+    margin-left: 74%;
+    margin-top:  -6%;
+    margin-right: 90%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+
+#principal
+
+{
+    width: 70%;
+    height: 75%;
+    /*margin: 10px auto 30px auto;*/
+    margin-left: -2%;
+    margin-top:  0px;
+    margin-right: 100px;
+
+    float: right;
+    /*   display: none;*/
+
+    position:absolute;      
+    -webkit-box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+    -moz-box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+    box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+#busquedaCanciones
+
+{
+    background-image: url('../images/42.jpg');
+    height: 20%;
+    width: 80%;
+    /*margin: 10px auto 30px auto;*/
+    margin-left: 4%;
+    margin-top:  0%;
+    margin-right: 90px;
+    /*float: left;*/
+
+    position: relative;      
+    -webkit-box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+    -moz-box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+    box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: none;
+
+}
+
+
+#resultados
+
+{
+
+    /*background-image: url('../images/42.jpg');*/
+    width: 93%;
+
+    height: 65%;
+    margin: 10px auto 30px auto;
+    margin-left: 4%;
+    margin-top:  3%;
+    margin-right: 90px;
+    float: left;
+
+    position:relative;      
+    -webkit-box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+    -moz-box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+    box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: none;
+
+}
+#crearLista{
+    margin-left: 20%;
+    margin-top: 5%;
+
+    display: none;
+    width: 50%;
+    background-color: black;
+    -webkit-box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+    -moz-box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+    box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+#crearLista img{
+    margin-left: 30%;
+    margin-top: 1%;
+    background-color: white;
+    -webkit-box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+    -moz-box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+    box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+
+
+}
+#crearLista input {
+    margin-left: 5%;   
+}
+
+#imagen{
+
+
+
+}
+
+
+
+.menu{
+
+
+    width: 43%;
+    height: 110%;
+    overflow:hidden;
+    font: 75%/120% Arial, Helvetica, sans-serif;
+    margin: 10px auto 30px auto;
+    margin-left: -50%;
+    margin-top:  0%;
+    margin-right: 90%;
+    float: left;
+    border-bottom: solid 1px #c4c4c4;
+    /*background-image: url('../images/42.jpg');*/
+
+    position:relative;      
+
+} 
+
+.menu h3 {
+    background: #006699 url(../images/arrow_square.gif) no-repeat right -51px;
+    padding: 7px 15px;
+    margin: 0;
+    font: bold 120%/100% Arial, Helvetica, sans-serif;
+    border: solid 1px #c4c4c4;
+    border-bottom: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+.menu h3:hover {
+    background-color: #e3e2e2;
+}
+.menu h3.active {
+    background-position: right 5px;
+}
+
+.menu div, p {
+    background: #FFF;
+    max-height:  180%;
+    margin: 0;
+    padding: 10px 15px 20px;
+    border-left: solid 1px #c4c4c4;
+    border-right: solid 1px #c4c4c4;
+    display: none;
+    overflow: auto;
+}
+
+#logueo #usuario #password
+{
+    font-size:17px;
+    margin-left: 10px;
+    margin-top:  0px;
+    margin-right: 130px;
+
+
+
+
+}
+
+
+
+
+body 
+{
+
+    margin: 36px auto;
+    width: 45%;
+    background-color: black;
+}
+
+
+
+
+
+.button
+{
+    width: 25%;
+
+    background: #e2b911;
+    color: #e2b911;
+    font: 13px Tahoma, Arial, sans-serif;
+    padding: 5px 15px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #333;
+    letter-spacing: 1px;
+    margin-left: 1%;
+
+    /**** Sombra de texto ****/
+    text-shadow: 0px -1px 0px #333333;
+}
+
+.input
+{
+    width: 40%;
+
+
+
+    padding: 5px 15px;
+    text-decoration: none;
+
+
+    letter-spacing: 1px;
+    margin-left: 80px;
+
+    /**** Sombra de texto ****/
+    text-shadow: 0px -1px 0px #333333;
+}
+
+.output
+{
+    color: #d64014;
+    font-size: 20px;
+
+}
+
+
+.uploadify-button {
+    background-color: #505050;
+    background-image: linear-gradient(bottom, #505050 0%, #707070 100%);
+    background-image: -o-linear-gradient(bottom, #505050 0%, #707070 100%);
+    background-image: -moz-linear-gradient(bottom, #505050 0%, #707070 100%);
+    background-image: -webkit-linear-gradient(bottom, #505050 0%, #707070 100%);
+    background-image: -ms-linear-gradient(bottom, #505050 0%, #707070 100%);
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, #505050),
+        color-stop(1, #707070)
+        );
+    background-position: center top;
+    background-repeat: no-repeat;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    border: 2px solid #808080;
+    color: #FFF;
+    font: bold 12px Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+    width: 100%;
+}
+.uploadify:hover .uploadify-button {
+    background-color: #606060;
+    background-image: linear-gradient(top, #606060 0%, #808080 100%);
+    background-image: -o-linear-gradient(top, #606060 0%, #808080 100%);
+    background-image: -moz-linear-gradient(top, #606060 0%, #808080 100%);
+    background-image: -webkit-linear-gradient(top, #606060 0%, #808080 100%);
+    background-image: -ms-linear-gradient(top, #606060 0%, #808080 100%);
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, #606060),
+        color-stop(1, #808080)
+        );
+    background-position: center bottom;
+}
+.uploadify-button.disabled {
+    background-color: #D0D0D0;
+    color: #808080;
+}
+.uploadify-queue {
+    margin-bottom: 1em;
+}
+.uploadify-queue-item {
+    background-color: #F5F5F5;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font: 11px Verdana, Geneva, sans-serif;
+    margin-top: 5px;
+    max-width: 350px;
+    padding: 10px;
+}
+.uploadify-error {
+    background-color: #FDE5DD !important;
+}
+.uploadify-queue-item .cancel a {
+    background: url('../images/uploadify-cancel.png') 0 0 no-repeat;
+    float: right;
+    height:	16px;
+    text-indent: -9999px;
+    width: 16px;
+}
+.uploadify-queue-item.completed {
+    background-color: #E5E5E5;
+}
+.uploadify-progress {
+    background-color: #E5E5E5;
+    margin-top: 10px;
+    width: 100%;
+}
+.uploadify-progress-bar {
+    background-color: #0099FF;
+    height: 3px;
+    width: 1px;
+}
+
+
+/*    APARTIR DE AQUI INICIA EL ESTILO DE LA LISTA DE REPRODUCCION*/
+
+
+#listaReproduccion
+{
+    /*    background-image: url('../images/102.png');*/
+    /*    background-repeat: no-repeat;*/
+    background-color: white;
+    width: 70%;
+    height: 95%;
+    overflow: auto;
+    /*background-image: url('../images/42.jpg');*/
+    margin: 10px auto 30px auto;
+    margin-left: 10%;
+    position:relative;      
+    -webkit-box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+    -moz-box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+    box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: none;
+}
+
+#registrarUsuario
+{
+
+    width: 70%;
+    height: 95%;
+    margin: 10px auto 30px auto;
+    margin-left: 10%;
+    position:relative;      
+    /*    -webkit-box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+        -moz-box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+        box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;*/
+    display: none;
+
+}
+
+#DatosPersonales
+{
+
+    margin-top: 15%;
+    margin-left: 30%;
+
+    display: none;
+
+}
+
+
+
+
+
+
+a { 
+    color: #888; 
+    text-decoration: none; 
+}
+
+
+
+
+ol { 
+    padding: 0px; 
+    margin: 0px; 
+    list-style: decimal-leading-zero inside; 
+    color: #ccc;
+    width: 460px;
+    border-top: 1px solid #ccc; 
+    font-size: 0.9em; 
+}
+
+
+ol li 
+{ 
+    position: relative; 
+    margin: 0px; padding: 9px 2px 10px; 
+    border-bottom: 1px solid #ccc; 
+    cursor: pointer; 
+}
+
+ol li a 
+{ 
+    display: block; 
+    text-indent: -3.3ex; 
+    padding: 0px 0px 0px 20px; 
+}
+li.playing 
+{ 
+    color: #aaa;
+    color: #f28a14;
+    font-size: 18px;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.3); 
+}
+
+li.playing a { 
+    color: #f28a14; 
+
+}
+
+li.playing:before { 
+    content: '♬'; 
+    width: 14px; 
+    height: 14px; 
+    padding: 3px; 
+    line-height: 14px; 
+    margin: 0px; position: absolute; 
+    left: -24px; 
+    top: 9px; 
+    color: #000; 
+    font-size: 13px; 
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2); 
+}
+
+#shortcuts
+{ 
+    position: fixed; 
+    bottom: 0px; 
+    width: 100%;
+    color: #666; 
+    font-size: 0.9em; 
+    margin: 60px 0px 0px;
+    padding: 20px 20px 15px; 
+    background: #f3f3f3; 
+    background: rgba(240, 240, 240, 0.7);
+}
+
+#shortcuts div 
+{ 
+    width: 460px;
+    margin: 0px auto; 
+}
+
+#shortcuts h1 { 
+    margin: 0px 0px 6px; 
+}
+#shortcuts p {
+    margin: 0px 0px 18px; 
+}
+#shortcuts em {
+    font-style: normal; 
+    background: #d3d3d3; 
+    padding: 3px 9px; 
+    position: relative; left: -3px;
+    -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px;
+    -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); -o-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); }
+
+@media screen and (max-device-width: 480px) 
+{
+    #wrapper { 
+        position: relative; 
+        left: -3%; 
+    }
+    #shortcuts 
+    { 
+        display: none; 
+    }
+}
+
+
+
+/*Jplayer.codrops.css*/
+
+div.jp-single-player,
+div.jp-playlist-player {
+
+    /* Edit the font-size to counteract inherited font sizing.
+     * Eg. 1.25em = 1 / 0.8em
+    */
+    font-size:1em; /* No parent CSS that can effect the size in these demos */
+    line-height:1.6;
+    color: #666;
+    margin-top:10px;
+}
+div.jp-interface {
+    position: relative;
+    width:215px;
+    height:60px;
+}
+div.jp-single-player div.jp-interface {
+    border-bottom:none;
+}
+div.jp-interface ul.jp-controls {
+    list-style-type:none;
+    padding:0;
+    margin: 0;
+}
+div.jp-interface ul.jp-controls li {
+    position: absolute;
+}
+div.jp-interface ul.jp-controls a {
+    position: absolute;
+    overflow:hidden;
+    text-indent:-9999px;
+    opacity:0.9;
+}
+div.jp-interface ul.jp-controls a:hover{
+    opacity:1.0;
+}
+a.jp-previous {
+    left:4px;
+    top:0px;
+    width:20px;
+    height:20px;
+    background: url(../images/reproductor/playback_prev.png) no-repeat center center;
+}
+div.jp-playlist-player a.jp-play,
+div.jp-playlist-player a.jp-pause {
+    left:24px;
+}
+a.jp-play {
+    background: url(../images/reproductor/playback_play.png) no-repeat center center;
+    width:20px;
+    height:20px;
+}
+a.jp-pause {
+    background: url(../images/reproductor/playback_pause.png) no-repeat center center;
+    display: none;
+    width:20px;
+    height:20px;
+}
+a.jp-next {
+    left:45px;
+    top:0px;
+    width:20px;
+    height:20px;
+    background: url(../images/reproductor/playback_next.png) no-repeat center center;
+}
+a.jp-stop {
+    top:0px;
+    background: url(../images/reproductor/playback_stop.png) no-repeat center center;
+    width:20px;
+    height:20px;
+}
+a.jp-add {
+    left:200px;
+    top:0px;
+    width:80px;
+    height:80px;
+    background: url(../images/reproductor/playlist.png) no-repeat center center;
+}
+div.jp-playlist-player a.jp-stop {
+    left:72px;
+}
+div.jp-play-time,
+div.jp-total-time {
+    position: absolute;
+    top:42px;
+    width:200px;
+    font-size:10px;
+    color:#fff;
+}
+div.jp-total-time {
+    text-align: right;
+}
+div.jp-playlist-player div.jp-play-time,
+div.jp-playlist-player div.jp-total-time {
+    left:7px;
+}
+div.jp-progress {
+    position: absolute;
+    overflow:hidden;
+    top:25px;
+    border:1px solid #000;
+    width:200px;
+    height:15px;
+}
+div.jp-playlist-player div.jp-progress {
+    left:7px;
+}
+div.jp-load-bar {
+    background: url("jplayer.codrops.png") 0 0 repeat-x;
+    width:0px;
+    height:15px;
+    cursor: pointer;
+}
+div.jp-play-bar {
+    background: url("../images/reproductor/jplayer.codrops.png") 0 -15px repeat-x ;
+    width:0px;
+    height:15px;
+}
+a.jp-volume-min {
+    top:2px;
+    background: url(../images/reproductor/sound_mute.png) no-repeat center center;
+    width:18px;
+    height:15px;
+    left:100px;
+}
+a.jp-volume-max {
+    top:2px;
+    background: url(../images/reproductor/sound_high.png) no-repeat center center;
+    width:18px;
+    height:15px;
+    left:174px;
+}
+div.jp-volume-bar {
+    position: absolute;
+    overflow:hidden;
+    top:7px;
+    background: url("../images/reproductor/jplayer.codrops.png") 0 0px repeat-x;
+    width:46px;
+    height:5px;
+    cursor: pointer;
+    left:123px;
+}
+div.jp-volume-bar-value {
+    background: url("../images/reproductor/jplayer.codrops.png") 0 -30px repeat-x;
+    width:0px;
+    height:5px;
+}
+div.jp-playlist {
+    /*panel donde se cuadra el scrool para las canciones*/
+    /*    width:215px;
+        height:435px;*/
+
+    width:100%;
+    height:385px;
+
+    overflow:auto;
+
+}
+div.jp-playlist ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    border-top:none;
+
+    width: 95%;
+    height: 100%;
+    font-size:10px;
+
+}
+div.jp-playlist-player div.jp-playlist li {
+    /*backgroud de las canciones que se estan sonando(y las que no)*/
+    padding:3px;
+    margin:3px 6px;
+    background:transparent url(../images/reproductor/bg.png) repeat top left;
+    /*background-color: yellow;*/
+}
+div.jp-playlist-player div.jp-playlist li span{
+    width:16px;
+    height:16px;
+    float:right;
+    margin-left: 1%;  
+    cursor: pointer;
+    background: url(../images/reproductor/remove.png) no-repeat center center;
+}
+div.jp-playlist-player div.jp-playlist li.jplayer_playlist_current {
+
+
+}
+div.jp-playlist-player div.jp-playlist a {
+    /*color de las pistas que aun no han sonado*/
+    color: #ccc;
+    /*color: yellow;*/
+    text-shadow:1px 1px 1px #000;
+    /*text-transform:uppercase;*/
+    text-decoration: none;
+    font-size: 13px;
+}
+div.jp-playlist-player div.jp-playlist a:hover {
+    color:#fff;
+    font-size: 16px;
+}
+div.jp-playlist-player div.jp-playlist a.jplayer_playlist_current {
+    /*    color:#c4000c;*/
+    color:#6C4712;
+    font-size: 12px;
+    /*    este es el color de la letra de la lista de reproduccion() */
+}
+
+
+/*skin.css*/
+.jcarousel-skin .jcarousel-container {
+    /*complicado este div corresponde al carrusel*/
+    /*    position:absolute;
+    
+        left:0%;
+        top: 160%;
+        margin-top: 50%;
+        margin-bottom: -30%;*/
+    /*    width: 100%;
+        height: 0%;
+        bottom:  300%;
+        float: bottom;*/
+
+
+
+
+
+
+
+    position:absolute;
+    top:185px;
+    left:0px;
+    margin-top: 10%;
+    left:0%;
+
+    -moz-border-radius:0px 0px 0px 10px;
+    -webkit-border-bottom-left-radius:10px;
+    border-bottom-left-radius:10px;
+    /*background-color: white;*/
+
+}
+
+
+.jcarousel-skin .jcarousel-container-horizontal {
+    /*Aqui se cuadra el carrusel*/
+
+    position: absolute;
+
+    width: 73%;
+
+
+    height: -20%;
+    margin-left: -11%;
+    padding: 1% 4%;
+    background-color: black;
+    margin-top: 28%;
+    -webkit-box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+    -moz-box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+    box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+
+
+
+
+
+
+}
+.jcarousel-skin .jcarousel-clip-horizontal {
+    /*panel donde se ubican todas las imagenes del carrusel*/   
+    width:  100%;
+    height: 10%;
+
+
+
+}
+.jcarousel-skin .jcarousel-item {
+    /*espacio que queda en las imagens del carrusel*/
+
+
+
+    width: 110px;
+    height: 117px;
+
+
+
+}
+.jcarousel-skin .jcarousel-item-horizontal {
+    margin: 0px 19px 0px 0px;
+
+
+}
+
+.jcarousel-skin .jcarousel-item-placeholder {
+    /*    background: #fff;
+        color: #000;*/
+}
+.jcarousel-skin .jcarousel-next-horizontal {
+    position: absolute;
+
+
+    top: 45%;
+    right: -5%;
+    width: 16%;
+    height: 16%;
+    cursor: pointer;
+
+    background: transparent url(../images/reproductor/br_next.png) no-repeat center center;
+}
+.jcarousel-skin .jcarousel-prev-horizontal {
+    position: absolute;
+
+
+    top: 45%;
+    left: -6%;
+    width: 16%;
+    height: 16%;
+
+    cursor: pointer;
+    background: transparent url(../images/reproductor/br_prev.png) no-repeat center center;
+}
+
+
+/*style.css*/
+
+.mp_wrapper{
+
+    margin-top: 2%;
+    width:78%;
+    height:90%;
+    margin:50px auto 40px auto;
+    /*    position:relative;*/
+    /*    background-color: white;*/
+    margin-top: 0%;
+    display: none;
+
+}
+h3{
+
+
+    color: white;
+    margin-top: -1.5%;
+}
+
+.mp_content_wrapper{
+
+    /*   panel donde se mustra el contendo de una lista de reproduccion */
+    position:absolute;
+    top:0%;
+    left:0%;
+    margin-top: 2%;
+    margin-left: 2%;
+
+    width:65%;
+    height:67%;
+    background:transparent url(../images/reproductor/bg.png) repeat top left;
+
+    -moz-border-radius:10px 0px 0px 0px;
+    -webkit-border-top-left-radius:10px;
+    border-top-left-radius:10px;
+    background-color: #202171;
+}
+.mp_player{
+    /*   panel lateral */
+    position:absolute;
+    top:0%;
+    left:83%;
+
+    width:25%;
+    height:90%;
+    margin-top: 2%;
+    margin-left: -14%;
+    -webkit-box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+    -moz-box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+    box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+
+}
+.mp_content img{
+    width:30%;
+
+    border:1px solid #000;
+    -moz-box-shadow:1px 1px 4px #000;
+    -webkit-box-shadow:1px 1px 4px #000;
+    box-shadow:1px 1px 4px #000;
+    margin:20px 20px 10px 20px;
+}
+.mp_description{
+    /*panel donde se muestra el nombre de la lista de reproduccion*/
+    width:30%;
+    height:55%;
+    margin:0 auto;
+    margin-left: 2%;
+
+    overflow:auto;
+    text-overflow:ellipsis;
+
+}
+.mp_description h2{
+    /*estilo del la fuente nombre lista reproduccion*/
+    font-size:150%;
+    margin-bottom:5%;
+    color:#f0f0f0;
+
+    padding:3px 0px 4px 10px;
+    color: #f0ecec;
+
+}
+
+.mp_songs{
+    /*panel donde se muestra el contenido de una lista de reproducion*/
+
+    width:65%;
+    height:90%;
+    position:absolute;
+    right:1%;
+    top:6%;
+
+
+    overflow: auto;
+}
+a.mp_playall{
+
+    /*icono para  reproduccir una lista de reproduccion*/
+    background:#000 url(../images/reproductor/play_big.png) no-repeat center center;
+    width:25%;
+    height:30%;
+    margin-left:-30%;
+    margin-top:8%;
+    position:absolute;
+
+    text-indent:-9000px;
+    outline:none;
+    display:none;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    opacity:0.7;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+}
+.mp_songs > div{
+    /*aqui se cuadra donde aparece el titulo de la cancion y las opciones*/
+    background:transparent url(../images/reproductor/bg.png) repeat top left;
+    width:100%;
+    margin-bottom:1%;
+    height:16%;
+
+    /*    background: transparent radial-gradient(#0099FF);*/
+
+}
+.mp_songs div h3{
+    /*zona donde se muestra el titulo de la cacnion*/ 
+    width:60%;
+    margin-top: 4%;
+    /*    line-height:40%;*/
+    margin-left:2%;
+    float:left;
+
+}
+.mp_options{
+    /*aqui se cuadran los iconos*/
+    width:30%;
+    float:right;
+    margin-left: 4%;
+    margin-top: 4%;
+    margin-right: 4%;
+    margin-bottom:2%;
+    /*background-color: white;*/     
+}
+
+
+
+
+
+.mp_options span {
+    text-indent:-9000px;
+    width:17%;
+    height:1%;
+    margin:2% 2% 0% 0%;
+    float:left;
+    cursor:pointer;
+
+
+}
+.mp_options span.mp_addpl{
+    background:transparent url(../images/reproductor/addSong.png) no-repeat center center;
+}
+
+.mp_options span.mp_delete{
+    background:transparent url(../images/reproductor/Delete.png) no-repeat center center;
+}
+.mp_options span.mp_play{
+    background:transparent url(../images/reproductor/PlaySong.png) no-repeat center center;
+}
+
+.mp_options span.mp_download
+{
+
+    background:transparent url(../images/reproductor/Download.png) no-repeat center center;
+
+}
+
+.mp_options span.mp_like{
+    background:transparent url(../images/reproductor/like.jpg) no-repeat center center;
+}
+ul.mp_albums img{
+    /*	width:110px;*/
+    /*width: 40%;*/
+    margin-top: 10%;
+    -moz-box-shadow:1px 1px 4px #000;
+    -webkit-box-shadow:1px 1px 4px #000;
+    box-shadow:1px 1px 4px #000;
+    cursor:pointer;
+    /*	margin-top:3px;*/
+
+}
+
+
+
+h2{
+    font-size: 170%;
+    color: #ebbe0d;
+
+
+}
+
+
+#miVentana{
+    position: fixed; 
+    width: 30%; 
+    height: 30%; 
+    top: 0; 
+    left: 0; 
+    font-family:Verdana, Arial, Helvetica, sans-serif; 
+    font-size: 12px; font-weight: normal;
+    border: #333333 3px solid; 
+    background-color: #FAFAFA; 
+    color: #000000; 
+    display:none;
+    
+    
+    
+}
+#titulo{
+    
+    
+    font-weight: bold;
+    text-align: left; 
+    color: #FFFFFF; 
+    padding: 5px; 
+    background-color:#006394
+}
+
+#contenidoVentanaModal
+{
+    margin-left: 5%;
+    font-family:Verdana, Arial, Helvetica, sans-serif; 
+    font-size: 17px;
+    padding: 5px;
+    text-align: justify;
+    line-height:normal
+    
+    
+        
+}
+
+#botonesModal{
+    padding: 10px; 
+    background-color: #F0F0F0;
+    text-align: center; 
+    margin-top: 15%;
+    
+    
+}
+
+
+
+
+
+
+
+

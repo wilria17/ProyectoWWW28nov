@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <body>
+        <form>
+            <header>
+                <img width="170" height="90" src="images/logo_1.png">
+                <span id="bienvenida" style=" text-shadow: 1px 1px white, -1px -1px #333; /*background-color: #ddd;*/ color: #ddd; padding: 10px; font-size: 30px; margin-left: 2%; ">BIENVENIDOS A UNIVALLE MUSIC </span>
+                <div id="logueo">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th>
+                                    <span style="color: white; margin-left: 70%;">Usuario:</span>
+                                </th>
+                                <th>
+                                    <span style="color : #3366ff; margin-left: 50%;"> anfepera</span>
+                                </th>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <a id="dr5" class="button blue skew" name="dr5" style="margin-left: 30%;" href="../Interfaces/Cerrar.php">Salir</a>
+                </div>
+            </header>
+            <div class="menu">
+                <h3>Subir una Cancion</h3>
+                <p>
+                <div id="file_upload" class="uploadify" style="height: 30px; width: 120px;">
+                    <object id="SWFUpload_0" class="swfupload" width="120" height="30" data="uploadify.swf?preventswfcaching=1353299170565" type="application/x-shockwave-flash" style="position: absolute; z-index: 1;">
+                        <param value="transparent" name="wmode">
+                        <param value="uploadify.swf?preventswfcaching=1353299170565" name="movie">
+                        <param value="high" name="quality">
+                        <param value="false" name="menu">
+                        <param value="always" name="allowScriptAccess">
+                        <param value="movieName=SWFUpload_0&uploadURL=%2F~anfepera%2FProyecto%2Fvistas%2F..%2FScripsUpload%2Fuploadify.php&useQueryString=false&requeueOnError=false&httpSuccess=&assumeSuccessTimeout=30&params=timestamp%3D1353299169%26amp%3Btoken%3D269b695ef7a5d5ebdd1213197bd326dd&filePostName=Filedata&fileTypes=*.*&fileTypesDescription=All%20Files&fileSizeLimit=0&fileUploadLimit=0&fileQueueLimit=999&debugEnabled=false&buttonImageURL=%2F~anfepera%2FProyecto%2Fvistas%2F&buttonWidth=120&buttonHeight=30&buttonText=&buttonTextTopPadding=0&buttonTextLeftPadding=0&buttonTextStyle=color%3A%20%23000000%3B%20font-size%3A%2016pt%3B&buttonAction=-110&buttonDisabled=false&buttonCursor=-2" name="flashvars">
+                    </object>
+                    <div id="file_upload-button" class="uploadify-button " style="height: 30px; line-height: 30px; width: 120px;">
+                        <span class="uploadify-button-text">Subir Cancion</span>
+                    </div>
+                </div>
+                <div id="file_upload-queue" class="uploadify-queue"></div>
+                </p>
+                <h3 class="active" onclick="cargar('album4');">Mi Colección</h3>
+                <p style="display: block;"> </p>
+                <h3 class="">Mis Listas de Reproduccion</h3>
+                <p id="panelListas" style="display: none;">
+                    <a class="button" onclick="alert('Crear Lista Reproduccion');" style="width: 80%; background-color: #8dd784" type="submit">Crear lista</a>
+                    <br>
+                    <a class="button" onclick="mostrarElemento('listaReproduccion')" style="width: 80%;" type="submit">Lista De Reproduccion1</a>
+                    <a class="button" onclick="mostrarElemento('listaReproduccion')" style="width: 80%;" type="submit">Lista De Reproduccion2</a>
+                </p>
+                <h3>Organizar por:</h3>
+                <p>
+                    <a class="button" onclick="alert('Genero');" style="width: 50%;" type="submit">Genero</a>
+                    <a class="button" onclick="alert('Artista');" style="width: 50%;" type="submit">Artista</a>
+                    <a class="button" onclick="alert('Album');" style="width: 50%;" type="submit">Album</a>
+                </p>
+                <h3>Mis Canciones Favoritas</h3>
+                <p> </p>
+                <h3>Comprar Musica</h3>
+                <p> </p>
+                <h3 onclick="mostrarElemento('DatosPersonales')"> Información Personal</h3>
+                <p> </p>
+            </div>
+            <div id="principal">
+                <div id="reproductor" class="mp_wrapper" style="display: block;">
+                    <div id="mp_content_wrapper" class="mp_content_wrapper">
+                        <div id="album4" class="mp_content">
+                            <img alt="coleccion" src="images/reproductor/library.jpg">
+                            <a class="mp_playall" href="#" style="display: none;">Play all</a>
+                            <div class="mp_description">
+                                <h2>coleccion</h2>
+                                <div class="mp_songs">
+                                    <div>
+                                        <h3>tituloUNo</h3>
+                                        <div class="mp_options">
+                                            <span class="mp_like">like</span>
+                                            <span class="mp_download" title="Si deseas descargar esta cancion haz clic aqui">download</span>
+                                            <span class="mp_play">Play</span>
+                                            <span class="mp_addpl">Add to playlist</span>
+                                            <div class="mp_options">
+                                                <span class="mp_like">like</span>
+                                                <span class="mp_download" title="Si deseas descargar esta cancion haz clic aqui">download</span>
+                                                <span class="mp_play">Play</span>
+                                                <span class="mp_addpl">Add to playlist</span>
+                                            </div>
+                                            <div class="mp_song_info" style="display:none;">
+                                                <span class="mp_song_title">tituloUNo</span>
+                                                <span class="mp_mp3">../music/album3/1.ogg</span>
+                                                <span class="mp_ogg">../music/album3/1.ogg</span>
+                                                <span class="mp_id">01</span>
+                                                <span class="mp_price">1000</span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h3>tituloDOS</h3>
+                                            <div class="mp_options">
+                                                <span class="mp_like">like</span>
+                                                <span class="mp_download" title="Si deseas descargar esta cancion haz clic aqui">download</span>
+                                                <span class="mp_play">Play</span>
+                                                <span class="mp_addpl">Add to playlist</span>
+                                                <div class="mp_options">
+                                                    <span class="mp_like">like</span>
+                                                    <span class="mp_download" title="Si deseas descargar esta cancion haz clic aqui">download</span>
+                                                    <span class="mp_play">Play</span>
+                                                    <span class="mp_addpl">Add to playlist</span>
+                                                </div>
+                                                <div class="mp_song_info" style="display:none;">
+                                                    <span class="mp_song_title">tituloDOS</span>
+                                                    <span class="mp_mp3">../music/album3/2.ogg</span>
+                                                    <span class="mp_ogg">../music/album3/2.ogg</span>
+                                                    <span class="mp_id">02</span>
+                                                    <span class="mp_price">2000</span>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <h3>tituloTRES</h3>
+                                                <div class="mp_options">
+                                                    <span class="mp_like">like</span>
+                                                    <span class="mp_download" title="Si deseas descargar esta cancion haz clic aqui">download</span>
+                                                    <span class="mp_play">Play</span>
+                                                    <span class="mp_addpl">Add to playlist</span>
+                                                    <div class="mp_options">
+                                                        <span class="mp_like">like</span>
+                                                        <span class="mp_download" title="Si deseas descargar esta cancion haz clic aqui">download</span>
+                                                        <span class="mp_play">Play</span>
+                                                        <span class="mp_addpl">Add to playlist</span>
+                                                    </div>
+                                                    <div class="mp_song_info" style="display:none;">
+                                                        <span class="mp_song_title">tituloTRES</span>
+                                                        <span class="mp_mp3">../music/album3/1.ogg</span>
+                                                        <span class="mp_ogg">../music/album3/1.ogg</span>
+                                                        <span class="mp_id">03</span>
+                                                        <span class="mp_price">3000</span>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <h3>tituloCUATRO</h3>
+                                                    <div class="mp_options">
+                                                        <span class="mp_like">like</span>
+                                                        <span class="mp_download" title="Si deseas descargar esta cancion haz clic aqui">download</span>
+                                                        <span class="mp_play">Play</span>
+                                                        <span class="mp_addpl">Add to playlist</span>
+                                                        <div class="mp_options">
+                                                            <span class="mp_like">like</span>
+                                                            <span class="mp_download" title="Si deseas descargar esta cancion haz clic aqui">download</span>
+                                                            <span class="mp_play">Play</span>
+                                                            <span class="mp_addpl">Add to playlist</span>
+                                                        </div>
+                                                        <div class="mp_song_info" style="display:none;">
+                                                            <span class="mp_song_title">tituloCUATRO</span>
+                                                            <span class="mp_mp3">../music/album3/2.ogg</span>
+                                                            <span class="mp_ogg">../music/album3/2.ogg</span>
+                                                            <span class="mp_id">04</span>
+                                                            <span class="mp_price">4000</span>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <h3>tituloCINCO</h3>
+                                                        <div class="mp_options">
+                                                            <span class="mp_like">like</span>
+                                                            <span class="mp_download" title="Si deseas descargar esta cancion haz clic aqui">download</span>
+                                                            <span class="mp_play">Play</span>
+                                                            <span class="mp_addpl">Add to playlist</span>
+                                                            <div class="mp_options">
+                                                                <span class="mp_like">like</span>
+                                                                <span class="mp_download" title="Si deseas descargar esta cancion haz clic aqui">download</span>
+                                                                <span class="mp_play">Play</span>
+                                                                <span class="mp_addpl">Add to playlist</span>
+                                                            </div>
+                                                            <div class="mp_song_info" style="display:none;">
+                                                                <span class="mp_song_title">tituloCINCO</span>
+                                                                <span class="mp_mp3">../music/album3/1.ogg</span>
+                                                                <span class="mp_ogg">../music/album3/1.ogg</span>
+                                                                <span class="mp_id">05</span>
+                                                                <span class="mp_price">5000</span>
+                                                            </div>
+                                                        </div>
+                                                        <div>
+                                                            <h3>tituloSEIS</h3>
+                                                            <div class="mp_options">
+                                                                <div>
+                                                                    <h3>tituloSIETE</h3>
+                                                                    <div class="mp_options">
+                                                                        <span class="mp_like">like</span>
+                                                                        <span class="mp_download" title="Si deseas descargar esta cancion haz clic aqui">download</span>
+                                                                        <span class="mp_play">Play</span>
+                                                                        <span class="mp_addpl">Add to playlist</span>
+                                                                        <div class="mp_options">
+                                                                            <span class="mp_like">like</span>
+                                                                            <span class="mp_download" title="Si deseas descargar esta cancion haz clic aqui">download</span>
+                                                                            <span class="mp_play">Play</span>
+                                                                            <span class="mp_addpl">Add to playlist</span>
+                                                                        </div>
+                                                                        <div class="mp_song_info" style="display:none;">
+                                                                            <span class="mp_song_title">tituloSIETE</span>
+                                                                            <span class="mp_mp3">../music/album3/1.ogg</span>
+                                                                            <span class="mp_ogg">../music/album3/1.ogg</span>
+                                                                            <span class="mp_id">07</span>
+                                                                            <span class="mp_price">7000</span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div>
+                                                                        <h3>tituloOCHO</h3>
+                                                                        <div class="mp_options">
+                                                                            <span class="mp_like">like</span>
+                                                                            <span class="mp_download" title="Si deseas descargar esta cancion haz clic aqui">download</span>
+                                                                            <span class="mp_play">Play</span>
+                                                                            <span class="mp_addpl">Add to playlist</span>
+                                                                            <div class="mp_options">
+                                                                                <span class="mp_like">like</span>
+                                                                                <span class="mp_download" title="Si deseas descargar esta cancion haz clic aqui">download</span>
+                                                                                <span class="mp_play">Play</span>
+                                                                                <span class="mp_addpl">Add to playlist</span>
+                                                                            </div>
+                                                                            <div class="mp_song_info" style="display:none;">
+                                                                                <span class="mp_song_title">tituloOCHO</span>
+                                                                                <span class="mp_mp3">../music/album3/2.ogg</span>
+                                                                                <span class="mp_ogg">../music/album3/2.ogg</span>
+                                                                                <span class="mp_id">08</span>
+                                                                                <span class="mp_price">8000</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="mp_player" class="mp_player">
+                            <div class=" jcarousel-skin">
+                            </div>
+                            <div id="busquedaCanciones" style="display: none;">
+                                <h2>Busqueda de Canciones</h2>
+                                <input class="input" type="search" name="“busqueda”" placeholder="busqueda de canciones" autofocus="">
+                                <button class="button" draggable="true" type="button">Buscar</button>
+                            </div>
+                            <div id="resultados" style="display: none;">
+                                <div id="listaReproduccion" style="display: none;">
+                                    <audio preload="auto"></audio>
+                                    <ol>
+                                        <li>
+                                        <li>
+                                        <li>
+                                        <li>
+                                        <li>
+                                        <li>
+                                        <li>
+                                        <li>
+                                        <li>
+                                    </ol>
+                                </div>
+                                <div id="DatosPersonales" style="display: none;">
+                                </div>
+                            </div>
+                            </form>
+                            <script type="text/javascript">
+                                $(function() {
+                                    $('#file_upload').uploadify({
+                                        'formData' : {
+                                            'timestamp' : '1353299169',
+                                            'token' : '269b695ef7a5d5ebdd1213197bd326dd'
+                                        },
+                                        'swf' : 'uploadify.swf',
+                                        'uploader' : '../ScripsUpload/uploadify.php'
+                                    });
+                                });
+                            </script>
+                            </body>
+                            </html>
